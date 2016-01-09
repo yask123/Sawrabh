@@ -21,4 +21,12 @@ To request data for the given query:
 
 ### UI to add elelements in database 
 
+`http://localhost:800/admin`
+```
+
+Username: yask
+Password: yask
+
+```
+
 <img src="http://i.imgur.com/LDJFMy2.png" />
