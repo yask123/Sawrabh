@@ -19,6 +19,23 @@ To request data for the given query:
 
 * `type` Place type, eg `rest` or `mon` for restaurant and monument respectivly 
 
+Eg:
+### Request
+```
+http://localhost:8000/?id=1&type=rest
+```
+Response:
+```
+{
+  "Menu": [
+    "Burger | Price: 50",
+    "Pizze | Price: 300"
+  ],
+  "RestaurantName": "Burger Place"
+}
+
+```
+
 ### UI to add elelements in database 
 
 `http://localhost:800/admin`
