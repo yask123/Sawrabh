@@ -18,3 +18,7 @@ To request data for the given query:
 * `id` id of a restaurant or monument
 
 * `type` Place type, eg `rest` or `mon` for restaurant and monument respectivly 
+
+### UI to add elelements in database 
+
+<img src="http://i.imgur.com/LDJFMy2.png" />
