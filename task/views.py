@@ -19,7 +19,7 @@ def index(request):
 			menu = []
 			menu_items = MenuItem.objects.filter(restaurant = rest_name)
 			for each in menu_items:
-				menu.append(each.item+' | Price: '+str(each.price))
+				menu.append({'Food':each.item,'Price':each.price})
 
 		result = {}
 		result={'RestaurantName':rest_name.name,'Menu':menu}
