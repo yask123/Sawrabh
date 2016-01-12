@@ -109,3 +109,5 @@ TEMPLATE_DIRS = (
     )
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = 'staticroot/static'
