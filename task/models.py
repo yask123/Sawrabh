@@ -21,4 +21,4 @@ class Monument(models.Model):
 	desc = models.TextField()	
 
 	def __str__(self):
-		return self.Monument
+		return self.name
